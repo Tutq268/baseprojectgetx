@@ -9,6 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 ThemeData lightThemeData(BuildContext context) {
   return ThemeData.light().copyWith(
     primaryColor: primaryColor,
+    brightness: Brightness.light,
     scaffoldBackgroundColor: Colors.white,
     appBarTheme: appBarTheme,
     iconTheme: IconThemeData(color: contentColorLightTheme),
@@ -34,6 +35,7 @@ ThemeData darkThemeData(BuildContext context) {
   // we just modify it as our need
   return ThemeData.dark().copyWith(
     primaryColor: primaryColor,
+    brightness: Brightness.dark,
     scaffoldBackgroundColor: contentColorLightTheme,
     appBarTheme: appBarTheme,
     iconTheme: IconThemeData(color: contentColorDarkTheme),

@@ -1,18 +1,15 @@
+import 'package:base__pj_getx/model/account/account_model.dart';
 import 'package:get/get.dart';
 
 import 'base_provider.dart';
 
 abstract class ApiProviderInterface {
-  // Future<Response> test(String path);
+  Future<Response> getSingleUser(String path);
 }
 
 class ApiProvider extends BaseProvider implements ApiProviderInterface {
-  /*temp*/
-  // Future<Response> login(String path, LoginRequest data) {
-  //   return post(path, data.toJson());
-  // }
-  // @override
-  // Future<Response> test(String path) {
-  //   return get(path);
-  // }
+  @override
+  Future<Response> getSingleUser(String path) {
+    return get(path);
+  }
 }

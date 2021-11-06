@@ -1,4 +1,4 @@
-import 'package:base__pj_getx/controller/home/home_controller.dart';
+import 'package:base__pj_getx/screen/home/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/instance_manager.dart';
 

@@ -1,7 +1,6 @@
-import 'package:base__pj_getx/controller/home/home_controller.dart';
 import 'package:base__pj_getx/screen/add/add_controller.dart';
+import 'package:base__pj_getx/screen/home/home_controller.dart';
 import 'package:base__pj_getx/screen/message/message_controller.dart';
-import 'package:base__pj_getx/screen/message/message_screen.dart';
 import 'package:base__pj_getx/screen/users/user_controller.dart';
 import 'package:get/get.dart';
 

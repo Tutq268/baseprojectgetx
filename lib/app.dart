@@ -1,6 +1,7 @@
 import 'package:base__pj_getx/router/app_router.dart';
 import 'package:base__pj_getx/router/app_screen.dart';
 import 'package:base__pj_getx/screen/home/home_screen.dart';
+import 'package:base__pj_getx/services/ThemeServices.dart';
 import 'package:base__pj_getx/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -18,6 +19,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: lightThemeData(context),
       darkTheme: darkThemeData(context),
+      themeMode: ThemeServices().theme,
     );
   }
 }
